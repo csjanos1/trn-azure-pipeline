@@ -15,7 +15,7 @@ steps:
   displayName: 'köszönéske'
 
 - script: |
-    echo "##[group]Hol?"
+    echo "##[group]Hol? "
     echo "##[command]Út"
     pwd
     echo "##[command]File, mappa"
