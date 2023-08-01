@@ -11,12 +11,14 @@ pool:
 
 
 steps:
-- script: echo Hello, világ!
+- script: echo Hello, világ 0801!
   displayName: 'köszönéske'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-    ls
+    echo "##[group]Hol? "
+    echo "##[command]Út"
     pwd
-  displayName: 'valamilyen szkript'
+    echo "##[command]File, mappa"
+    ls
+    echo "##[endgroup]"
+  displayName: 'kiiras szkript'
