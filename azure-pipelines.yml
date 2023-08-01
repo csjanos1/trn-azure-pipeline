@@ -11,7 +11,7 @@ pool:
 
 
 steps:
-- script: echo Hello, világ!
+- script: echo Hello, világ 0801!
   displayName: 'köszönéske'
 
 - script: |
