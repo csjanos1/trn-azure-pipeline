@@ -9,11 +9,16 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+
 steps:
-- script: echo Hello, világ!
-  displayName: 'Run a one-line scripttttt'
+- script: echo Hello, világ 0801!
+  displayName: 'köszönéske'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    echo "##[group]Hol? "
+    echo "##[command]Út"
+    pwd
+    echo "##[command]File, mappa"
+    ls
+    echo "##[endgroup]"
+  displayName: 'kiiras szkript'
