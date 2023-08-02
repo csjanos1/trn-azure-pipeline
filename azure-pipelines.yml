@@ -11,12 +11,12 @@ pool:
 
 
 steps:
-- script: echo Hello, világ 0801!
+- script: echo Hello, világ 0802 2!
   displayName: 'köszönéske'
 
 - script: |
-    echo "##[group]Hol? "
-    echo "##[command]Út"
+    echo "##[group]Hol"
+    echo "##[command]ut"
     pwd
     echo "##[command]File, mappa"
     ls
